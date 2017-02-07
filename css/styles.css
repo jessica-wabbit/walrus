@@ -10,3 +10,28 @@
 #initially-showing {
   display: none;
 }
+
+
+.init-trick {
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.init-trick:hover {
+  text-decoration: underline;
+}
+
+img.trick {
+  display: none;
+}
+
+.init-op-trick {
+  cursor: pointer;
+  color: magenta;
+  font-style: italic;
+}
+
+.init-op-trick:hover {
+  text-decoration: underline;
+}

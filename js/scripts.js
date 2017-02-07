@@ -5,4 +5,12 @@ $(document).ready(function(){
     $("#initially-hidden").toggle();
   });
 
+  $(".init-trick").click(function(){
+    $("img.trick").slideDown();
+  });
+
+  $(".init-op-trick").click(function(){
+    $("img.other-trick").slideUp();
+  });
+
 });
