@@ -35,3 +35,17 @@ img.trick {
 .init-op-trick:hover {
   text-decoration: underline;
 }
+
+#opt-2 {
+  display: none
+}
+
+.other-options {
+  cursor: pointer;
+  color: green;
+  font-size: 18px;
+}
+
+.other-options:hover {
+  text-decoration: underline;
+}

@@ -10,7 +10,12 @@ $(document).ready(function(){
   });
 
   $(".init-op-trick").click(function(){
-    $("img.other-trick").slideUp();
+    $("img.other-trick").fadeOut();
+  });
+
+  $(".other-options").click(function() {
+    $("#opt-1").slideToggle();
+    $("#opt-2").slideToggle();
   });
 
 });
